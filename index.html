@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESCUELA MUSICAL</title>
+
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+
+    <!-- ICONOS GOOGLE -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!--MAPS GOOGLE-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#verMenu").click(function () {
+          $("#menu-header").slideToggle();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!--PRIMER BACK1-->
+    <header>
+      <img src="./imagenes/menu.svg" alt="icono menu" id="verMenu" />
+      <div id="logo-header"></div>
+
+      <!-- menu prinipal -->
+      <nav id="menu-header">
+        <a class="btmenu" href="#BACK_2">Clases</a>
+        <a class="btmenu" href="#BACK_4">Staff de docentes</a>
+        <a class="btmenu" href="#BACK_5">Ubicacion</a>
+        <a class="btmenu" href="#BACK_7">Contacto</a>
+      </nav>
+      <div id="des"></div>
+    </header>
+    <main>
+      <!--SEGUNDO BACK2-->
+      <section id="BACK_2">
+        <h1 id="tit2">Nuestras clases</h1>
+
+        <div id="clases">
+          <article id="c1">
+            <figure>
+              <img
+                src="./imagenes/clases/diferentes-tipos-de-guitarra-1.png"
+                alt="logo play"
+                class="IN"
+              />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Guitarra <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+
+          <article id="c2">
+            <figure>
+              <img src="./imagenes/clases/oe.png" alt="logo play" class="IN" />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Canto <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+
+          <article id="c3">
+            <figure>
+              <img
+                src="./imagenes/clases/saxofon.png"
+                alt="logo play"
+                class="IN"
+              />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Saxofón <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+
+          <article id="c4">
+            <figure>
+              <img
+                src="./imagenes/clases/piano.png"
+                alt="logo play"
+                class="IN"
+              />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Piano <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+
+          <article id="c5">
+            <figure>
+              <img
+                src="./imagenes/clases/ukelele.png"
+                alt="logo play"
+                class="IN"
+              />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Ukelele <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+
+          <article id="c6">
+            <figure>
+              <img
+                src="./imagenes/clases/niña.png"
+                alt="logo play"
+                class="IN"
+              />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Despertar musical <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+
+          <article id="c7">
+            <figure>
+              <img
+                src="./imagenes/clases/tambor.png"
+                alt="logo play"
+                class="IN"
+              />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Percusiónl <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+
+          <article id="c8">
+            <figure>
+              <img
+                src="./imagenes/clases/violin.png"
+                alt="logo play"
+                class="IN"
+              />
+            </figure>
+            <div class="c1l">
+              <div class="c1l__info">
+                <span class="c1l__icon"> </span>
+                <p class="c1l__icon--body">
+                  Violin <br />
+                  $100000
+                </p>
+              </div>
+              <button class="cl1__btn">Inscribete</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--TERCER BACK3-->
+      <section id="BACK_3">
+        <!-- <img src="./imagenes/BACK3/wallpaper-cassette-music.png" alt="" /> -->
+
+        <div id="decor">
+          <h1>Inscribete a nuestros cursos</h1>
+          <div id="search">
+            <div id="nombre">
+              <label for="name">Nombre*</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div>
+              <label for="email">Correo*</label>
+              <input type="text" id="email" name="email" />
+            </div>
+            <div>
+              <label for="course">Curso*</label>
+              <input type="text" id="course" name="course" />
+            </div>
+
+            <label class="container">
+              <input type="checkbox" checked="checked" />
+              <span class="checkmark"></span>Acepto la politica de tratamiento
+              de datos
+            </label>
+
+            <button id="button_3">Inscribete</button>
+          </div>
+        </div>
+        <div id="decor2"></div>
+      </section>
+
+      <!--CUARTO BACK4 1458-->
+      <section id="BACK_4">
+        <h1>Staff</h1>
+
+        <div class="profe">
+          <div class="doc doc--alexa"></div>
+          <div class="info">
+            <h2>Alexa Lozano Jurado</h2>
+            <p>Piano / Despertar musical</p>
+            <button class="info__btn">Ver perfil</button>
+            <img src="./imagenes/decoracion/Línea 1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="profe">
+          <div class="info">
+            <h2>Camilo Garcia</h2>
+            <p>Guitarra</p>
+            <button class="info__btn">Ver perfil</button>
+            <img src="./imagenes/decoracion/Línea 1.png" alt="" />
+          </div>
+          <div class="doc doc--camilo"></div>
+        </div>
+
+        <div class="profe">
+          <div class="doc doc--oriana"></div>
+          <div class="info">
+            <h2>Oriana Zúñiga Henao</h2>
+            <p>Canto / Ukelele</p>
+            <button class="info__btn">Ver perfil</button>
+            <img src="./imagenes/decoracion/Línea 1.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--QUINTO BACK5-->
+      <section id="BACK_5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5974511121676!2d-76.54236753555347!3d3.4476354022073488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a67c61d39a51%3A0x7b953cdb658a057b!2sSan%20Antonio%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1606436989407!5m2!1ses!2sco"
+          width="100%"
+          height="600"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </section>
+
+      <!--SEXTO BACK6-->
+      <section id="BACK_6">
+        <h1 class="BACK_6__tittle">Noticias</h1>
+        <div class="news_table">
+          <div class="noticia">
+            <img src="./imagenes/noticias/b.png" alt="" />
+            <h2>Titulo noticia</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Quisque lacus elit, finibus ut <br />
+              maximus nec, bibendum eu purus
+            </p>
+            <button class="button_6">Ver noticia</button>
+          </div>
+          <div class="noticia">
+            <img src="./imagenes/noticias/s.png" alt="" />
+            <h2>Titulo noticia</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Quisque lacus elit, finibus ut <br />
+              maximus nec, bibendum eu purus
+            </p>
+            <button class="button_6">Ver noticia</button>
+          </div>
+          <div class="noticia">
+            <img src="./imagenes/noticias/R.png" alt="" />
+            <h2>Titulo noticia</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Quisque lacus elit, finibus ut <br />
+              maximus nec, bibendum eu purus
+            </p>
+            <button class="button_6">Ver noticia</button>
+          </div>
+          <div class="noticia">
+            <img src="./imagenes/noticias/p.png" alt="" />
+            <h2>Titulo noticia</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Quisque lacus elit, finibus ut <br />
+              maximus nec, bibendum eu purus
+            </p>
+            <button class="button_6">Ver noticia</button>
+          </div>
+          <div class="noticia">
+            <img src="./imagenes/noticias/ld.png" alt="" />
+            <h2>Titulo noticia</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Quisque lacus elit, finibus ut <br />
+              maximus nec, bibendum eu purus
+            </p>
+            <button class="button_6">Ver noticia</button>
+          </div>
+          <div class="noticia">
+            <img src="./imagenes/noticias/AD.png" alt="" />
+            <h2>Titulo noticia</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit. Quisque lacus elit, finibus ut <br />
+              maximus nec, bibendum eu purus
+            </p>
+            <button class="button_6">Ver noticia</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--SEPTIMO BACK7-->
+    <footer id="BACK_7">
+      <div id="logo-header2"></div>
+      <div id="redes">
+        <img src="./imagenes/BACK7/facebook (1).png" alt="" />
+        <img src="./imagenes/BACK7/youtube.png" alt="" />
+        <img src="./imagenes/BACK7/instagram (1).png" alt="" />
+      </div>
+      <h2>La Mayor ©</h2>
+    </footer>
+  </body>
+</html>
